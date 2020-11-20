@@ -1,0 +1,13 @@
+Master
+Prince
+Princess
+Queen
+King
+Mistress
+Lord
+Lady
+Duke
+Dame
+Knight
+Enchantress
+Watcher
