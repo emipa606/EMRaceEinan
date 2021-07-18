@@ -10,7 +10,8 @@
         </categories>
       </li>
     </backstoryFilters>
-    <baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>25~44</initialResistanceRange>
     <chemicalAddictionChance>0.5</chemicalAddictionChance>
     <invNutrition>4.55</invNutrition>
     <invFoodDef>Pemmican</invFoodDef>

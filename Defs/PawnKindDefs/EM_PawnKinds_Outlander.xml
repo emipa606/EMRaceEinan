@@ -3,7 +3,8 @@
   <PawnKindDef Name="EM_MoonOutlanderBase" Abstract="True">
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <chemicalAddictionChance>0.045</chemicalAddictionChance>
-    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange>
     <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
     <backstoryFilters>
       <li>

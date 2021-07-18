@@ -10,7 +10,8 @@
         </categories>
       </li>
     </backstoryFilters>
-    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange>
     <chemicalAddictionChance>0.10</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>

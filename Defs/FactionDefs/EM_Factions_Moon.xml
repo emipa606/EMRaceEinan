@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <FactionDef ParentName="HumanFactionBase">
+  <FactionDef ParentName="FactionBase">
     <defName>EM_MoonCult</defName>
     <label>moon cult</label>
     <description>Small, secretive groups who conspire to recapture the power of the Einan Empire. Made up of einans or their allies, they work may seem random or haphazard, they could be friend or foe.</description>
@@ -26,14 +26,9 @@
       <li>(0.55,0.47,0.63)</li>
       <li>(0.49,0.33,0.42)</li>
     </colorSpectrum>
-    <startingGoodwill>
-      <min>-40</min>
-      <max>40</max>
-    </startingGoodwill>
     <mustStartOneEnemy>true</mustStartOneEnemy>
     <factionNameMaker>EM_NamerFactionEinan</factionNameMaker>
     <settlementNameMaker>EM_NamerFactionEinan</settlementNameMaker>
-    <pawnNameMaker>EM_NamerFactionEinan</pawnNameMaker>
     <techLevel>Neolithic</techLevel>
     <backstoryFilters>
       <li>
@@ -43,14 +38,9 @@
       </li>
     </backstoryFilters>
     <leaderTitle>lunar</leaderTitle>
-    <hairTags>
-      <li>Tribal</li>
-      <li>EM_Einan</li>
-    </hairTags>
-    <naturalColonyGoodwill>
-      <min>-100</min>
-      <max>100</max>
-    </naturalColonyGoodwill>
+    <allowedCultures>
+      <li>MoonCult</li>
+    </allowedCultures>
     <caravanTraderKinds>
       <li>Caravan_Neolithic_BulkGoods</li>
       <li>Caravan_Neolithic_WarMerchant</li>

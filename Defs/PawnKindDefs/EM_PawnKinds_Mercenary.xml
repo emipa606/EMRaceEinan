@@ -3,7 +3,8 @@
   <PawnKindDef Name="EM_MoonMercenaryBase" Abstract="True">
     <race>EM_Einan</race>
     <defaultFactionType>Pirate</defaultFactionType>
-    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+    <initialWillRange>2~5</initialWillRange>
+    <initialResistanceRange>25~34</initialResistanceRange>
     <backstoryFilters>
       <li>
         <categories>
