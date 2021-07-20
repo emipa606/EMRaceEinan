@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef>
+    <defName>EM_EinanPlayer</defName>
+    <defaultFactionType>PlayerTribe</defaultFactionType>
+    <label>einan</label>
+    <race>EM_Einan</race>
+    <labelMale>einan</labelMale>
+    <labelFemale>einan</labelFemale>
+    <isFighter>true</isFighter>
+    <combatPower>30</combatPower>
+    <apparelTags>
+      <li>Tribal</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>200</min>
+      <max>400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>EM_PersonEinan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[MoonOneStart][MoonOneEnd] [MoonTwoStart]</li>
+        <li>name-&gt;[MoonOneStart][MoonOneEnd] D'[MoonTwoEnd]</li>
+        <li>name-&gt;[MoonOneStart][MoonOneEnd] Van [MoonTwoStart]</li>
+        <li>name-&gt;[MoonTwoStart]'[MoonOneStart] [MoonTwoStart]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>MoonOneStart</keyword>
+          <path>NameBanks/MoonOneStart</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>MoonOneEnd</keyword>
+          <path>NameBanks/MoonOneEnd</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>MoonTwoStart</keyword>
+          <path>NameBanks/MoonTwoStart</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>MoonTwoEnd</keyword>
+          <path>NameBanks/MoonTwoEnd</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>EM_NamerFactionEinan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;The [MoonPronoun]'s [MoonItem]</li>
+        <li>name-&gt;The [MoonVerb] [MoonPronoun]</li>
+        <li>name-&gt;[MoonVerb] [MoonItem]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>MoonItem</keyword>
+          <path>NameBanks/MoonItem</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>MoonVerb</keyword>
+          <path>NameBanks/MoonVerb</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>MoonPronoun</keyword>
+          <path>NameBanks/MoonPronoun</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

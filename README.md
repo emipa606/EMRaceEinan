@@ -27,7 +27,7 @@ They are more receptive to psychic phenomena (good and bad) and more resistant t
 
 
 This also includes a new faction type: the moon cult - secretive groups of paganistic hunters, they may be friend or foe - and tend to dress and equip themselves with the best materials they have. 
-Einan&apos;s will also sometimes show up with pirates, mercenaries, or outlander tribes.
+Einan&amp;apos;s will also sometimes show up with pirates, mercenaries, or outlander tribes.
 
 Includes:
 Einan race - sort of human, sort of not
@@ -46,6 +46,7 @@ Requires Humanoid Alien Races [2.0] to run.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
