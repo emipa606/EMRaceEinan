@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>EM Race: Einan (Continued)</name>
   <packageId>Mlie.EMRaceEinan</packageId>
@@ -19,20 +19,24 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Moshs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1362408169
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/EMRaceEinan][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 A millenia ago the Einan empire ruled the stars as far as the eye could see - but times change and the empire fell. Those who managed to survive the downfall now live, reduced to near barbarism, on backwater planets (or as the humans call them, rimworlds).
 
 Not too different to a baseline human, these ashen skinned humanoids have 3 fingers and 3 toes where humans would have 5, and a small vestigal tail. Slightly smaller than an average human and not as suited to manual work - they are however formidable minds - excellent at research or other intellectual tasks. They are also long-lived, sometimes upwards of 500 years.
@@ -41,7 +45,7 @@ They are more receptive to psychic phenomena (good and bad) and more resistant t
 
 
 This also includes a new faction type: the moon cult - secretive groups of paganistic hunters, they may be friend or foe - and tend to dress and equip themselves with the best materials they have. 
-Einan&apos;s will also sometimes show up with pirates, mercenaries, or outlander tribes.
+Einan&amp;apos;s will also sometimes show up with pirates, mercenaries, or outlander tribes.
 
 Includes:
 Einan race - sort of human, sort of not
@@ -50,7 +54,7 @@ A couple of pieces of equipment to flavour the moon cults
 
 Requires Humanoid Alien Races [2.0] to run.
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -59,6 +63,5 @@ Requires Humanoid Alien Races [2.0] to run.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
