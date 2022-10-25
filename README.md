@@ -1,23 +1,14 @@
 # EMRaceEinan
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Moshs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1362408169
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/EMRaceEinan]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 A millenia ago the Einan empire ruled the stars as far as the eye could see - but times change and the empire fell. Those who managed to survive the downfall now live, reduced to near barbarism, on backwater planets (or as the humans call them, rimworlds).
 
@@ -36,7 +27,7 @@ A couple of pieces of equipment to flavour the moon cults
 
 Requires Humanoid Alien Races [2.0] to run.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

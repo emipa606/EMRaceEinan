@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>EM_Apparel_MoonBelt</defName>
+    <label>meteorite belt</label>
+    <description>No one knows how the moon cults manage to capture a glimmer of light within the complicated buckles made from rare metals. The air around the belt shimmers and anything faster than a blade entering the space will change direction and lose momentum.</description>
+    <graphicData>
+      <texPath>Things/Item/Apparel/MeteorBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>3</Mass>
+      <EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.0</EnergyShieldEnergyMax>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Shield" />
+    </comps>
+    <smeltable>false</smeltable>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>EM_MoonBelt</li>
+      </tags>
+      <!--
+<wornGraphicPath>Things/Item/Apparel/MeteorBeltOn</wornGraphicPath>
+-->
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,0.3)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,0.3)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,0.3)</min>
+          <max>RGBA(0.5,0.5,0.5,0.3)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,0.3)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[kindDef="Combat" and commonality="100"]/options</xpath>
+    <!-- Pirate "normal" group -->
+    <value>
+      <EM_MoonGrenadierEMP>2</EM_MoonGrenadierEMP>
+      <EM_MoonGrenadierDestructive>8</EM_MoonGrenadierDestructive>
+      <EM_MoonThrasher>26</EM_MoonThrasher>
+      <EM_MoonMercenarySlasher>26</EM_MoonMercenarySlasher>
+      <EM_MoonMercenaryHeavy>20</EM_MoonMercenaryHeavy>
+      <EM_MoonMercenarySniper>26</EM_MoonMercenarySniper>
+      <EM_MoonScavenger>36</EM_MoonScavenger>
+      <EM_MoonPirate>50</EM_MoonPirate>
+      <EM_MoonMercenaryGunner>40</EM_MoonMercenaryGunner>
+      <EM_MoonMercenaryElite>40</EM_MoonMercenaryElite>
+      <EM_MoonPirateBoss>40</EM_MoonPirateBoss>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[kindDef="Combat" and commonality="30"]/options</xpath>
+    <!-- Pirate "normal" melee only group -->
+    <value>
+      <EM_MoonMercenarySlasher>40</EM_MoonMercenarySlasher>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[kindDef="Settlement"]/options</xpath>
+    <!-- Pirate base group -->
+    <value>
+      <EM_MoonGrenadierDestructive>8</EM_MoonGrenadierDestructive>
+      <EM_MoonThrasher>28</EM_MoonThrasher>
+      <EM_MoonMercenarySlasher>28</EM_MoonMercenarySlasher>
+      <EM_MoonMercenarySniper>36</EM_MoonMercenarySniper>
+      <EM_MoonScavenger>40</EM_MoonScavenger>
+      <EM_MoonPirate>50</EM_MoonPirate>
+      <EM_MoonMercenaryGunner>30</EM_MoonMercenaryGunner>
+      <EM_MoonMercenaryElite>40</EM_MoonMercenaryElite>
+      <EM_MoonPirateBoss>40</EM_MoonPirateBoss>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Combat"]/options</xpath>
+    <!-- Outlander "normal" group -->
+    <value>
+      <EM_MoonGrenadierDestructive>5</EM_MoonGrenadierDestructive>
+      <EM_MoonMercenarySlasher>23</EM_MoonMercenarySlasher>
+      <EM_MoonTownGuard>33</EM_MoonTownGuard>
+      <EM_MoonTownCouncilman>33</EM_MoonTownCouncilman>
+      <EM_MoonMercenaryGunner>33</EM_MoonMercenaryGunner>
+      <EM_MoonMercenaryElite>33</EM_MoonMercenaryElite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/guards</xpath>
+    <!-- Outlander Caravan guard group -->
+    <value>
+      <EM_MoonGrenadierDestructive>5</EM_MoonGrenadierDestructive>
+      <EM_MoonMercenarySlasher>23</EM_MoonMercenarySlasher>
+      <EM_MoonTownGuard>33</EM_MoonTownGuard>
+      <EM_MoonMercenaryGunner>33</EM_MoonMercenaryGunner>
+      <EM_MoonMercenaryElite>33</EM_MoonMercenaryElite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Settlement"]/options</xpath>
+    <!-- Outlander base group -->
+    <value>
+      <EM_MoonGrenadierDestructive>5</EM_MoonGrenadierDestructive>
+      <EM_MoonMercenarySlasher>23</EM_MoonMercenarySlasher>
+      <EM_MoonVillager>33</EM_MoonVillager>
+      <EM_MoonTownGuard>33</EM_MoonTownGuard>
+      <EM_MoonTownCouncilman>33</EM_MoonTownCouncilman>
+      <EM_MoonMercenaryGunner>33</EM_MoonMercenaryGunner>
+      <EM_MoonMercenaryElite>33</EM_MoonMercenaryElite>
+    </value>
+  </Operation>
+</Patch>
