@@ -133,6 +133,8 @@
             <li>Hulk</li>
             <li>Male</li>
             <li>Thin</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
           </bodyTypes>
           <headTypes Inherit="False">
             <li>Einan_Female</li>
@@ -290,6 +292,19 @@
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
       <ageGenerationCurve>
         <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>
+          <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+          <!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16,0)</li>
           <li>(30,0)</li>
           <li>(60,0)</li>
           <li>(120,18)</li>
